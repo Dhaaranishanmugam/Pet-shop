@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+    <style>
+        body {
+            background: linear-gradient(to left, rgb(85, 154, 183), rgb(114, 176, 121));
+            color: black;
+            font-family: 'Sonsie One', cursive;
+            font-size: xx-large;
+        }
+        h1 {
+            margin-left: 40px;
+        }
+        .dogbreed {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0px;
+            padding: 0 20px;
+        }
+        .dogbreed button {
+            border: none;
+            background: linear-gradient(to left, rgb(85, 154, 183), rgb(114, 176, 121));
+            border-radius: 30px;
+            font-size: 30px;
+            cursor: pointer;
+            padding: 10px 30px;
+            margin-right: 90px;
+            font-family: 'Dancing Script';
+        }
+        .dogs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .dog {
+            text-align: center;
+            margin: 20px;
+        }
+        .dog img {
+            width: 300px;
+            height: 350px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dogbreed">
+        <h1>Dogs</h1>
+        <button type="button" onclick="location.href='http://127.0.0.1:5500/HTML/HTML%20HW/petshop.html'">Back</button>
+    </div>
+
+    <div class="dogs">
+        <div class="dog">
+            <img src="goldenreteriver.jpg" alt="Golden Retriever">
+            <div>Golden Retriever</div>
+            <div>Price: $1200</div>
+        </div>
+        <div class="dog">
+            <img src="germansheperd.jpg" alt="German Shepherd">
+            <div>German Shepherd</div>
+            <div>Price: $1500</div>
+        </div>
+        <div class="dog">
+            <img src="labrator.jpg" alt="Labrador">
+            <div>Labrador</div>
+            <div>Price: $1000</div>
+        </div>
+        <div class="dog">
+            <img src="rottweiler.jpg" alt="Rottweiler">
+            <div>Rottweiler</div>
+            <div>Price: $1300</div>
+        </div>
+        <div class="dog">
+            <img src="beagle.jpg" alt="Beagle">
+            <div>Beagle</div>
+            <div>Price: $800</div>
+        </div>
+        <div class="dog">
+            <img src="shihtzu.jpg" alt="Shih Tzu">
+            <div>Shih Tzu</div>
+            <div>Price: $900</div>
+        </div>
+        <div class="dog">
+            <img src="pug.jpg" alt="Pug">
+            <div>Pug</div>
+            <div>Price: $700</div>
+        </div>
+    </div>
+</body>
+</html>
